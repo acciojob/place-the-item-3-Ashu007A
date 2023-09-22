@@ -1,2 +1,19 @@
-
 /* Your CSS Code here. */
+
+		.holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .item {
+            color: black;
+            padding: 10px 20px;
+            margin: 0;
+            font-weight: bolder;
+            font-size: xx-large;
+            width: 250px;
+            height: 250px;
+        }
